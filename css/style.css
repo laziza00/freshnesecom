@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
 *,
 *::after,
 *::before {
@@ -10,6 +13,143 @@ body {
   background-color: #fff;
   min-height: 100vh;
   display: flex;
+  font-family: 'Poppins', sans-serif;
   flex-direction: column;
 }
+.menu__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+.nav__link {
+  text-decoration: none;
+}
+.menu__info .nav-link {
+  text-decoration: underline;
+}
+.nav__item:not(:last-child) {
+  margin-right: 35px;
+}
+.card-img {
+  margin-top: 0;
+}
+.card__inner-box {
+  display: flex;
+  justify-content: space-between;
+}
+.card__sum {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+  width: 76px;
+}
+.btn-primary {
+  padding: 7px 12px;
+  background: #6A983C;
+  border: 2px solid #46760A;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.product__item .card{
+  width: 420px;
+  height: 280px;
+  background-image: url('../images/category-bg.png');
+  padding: 48px 33px  0 33px;
+}
+.product__item h5 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6A983C;
+  margin-bottom: 8px;
+}
+.product__item p {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+    color: #151515;
+    margin-bottom: 57px;
+}
+.product .card {
+  width: 269px;
+  /* height: 323px; */
+  padding: 0 12px;
+}
+.say__img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.say .card {
+  border: none;
+}
+.say .card-text {
+  width: 305px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #151515;
+}
+.name-text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #A9A9A9;
+  margin-bottom: 16px;
+}
+.say {
+  padding: 60px 0;
+}
+.product {
+  padding: 60px 0;
+}
+.headline {
+  padding: 60px 0;
+}
+.say__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+.say__box  {
+  margin-bottom: 42px;
+}
+.categories__btn {
+  border: 2px solid #92C064;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.blog button {
+  border: none;
+  padding: 7px 20px;
+  display: inline-block;
+}
+.headline button {
+  border: none;
+  padding: 7px 20px;
+  display: inline-block;
+}
+.say button {
+  border: none;
+  padding: 7px 20px;
+  display: inline-block;
+}
 
+.blog__box-inner:nth-child(1) {
+  display: block;
+  content: '';
+  background-image: url('https://picsum.photos.id/469/400');
+  width: 469px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
